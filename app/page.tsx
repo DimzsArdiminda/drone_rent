@@ -9,7 +9,6 @@ import { Card,
   } from "@/Components/ui/card";
 import Link from "next/link";
 import Divider from "@/Components/Divider";
-import FooterBro from "@/Components/Footer";
 
 
 export default function Home() {
@@ -106,7 +105,7 @@ export default function Home() {
       </Card>
       </Continer>
 
-      <FooterBro/>
+    
     </div>
   );
 }

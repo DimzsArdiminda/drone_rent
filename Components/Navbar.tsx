@@ -30,7 +30,10 @@ export default function Navbar() {
             <li>
                 <Link href={'/portofolio'}>Portofolio</Link>
             </li>
-            <li><a>About</a></li>
+            <li>
+                <Link href={'https://wa.me/+6283834631310'}>Contact Me</Link>
+                <a> </a>
+            </li>
             </ul>
         </div>
         </div>
