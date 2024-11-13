@@ -1,6 +1,7 @@
 'use strict';
 import Continer from '@/Components/Continer'
 import CustomHead from '@/Components/Head'
+import { Link } from 'lucide-react';
 import React from 'react'
 
 export default function page() {
@@ -21,8 +22,8 @@ export default function page() {
               data-video-id="7436019557707287826"
             > 
               <section> 
-                <a target="_blank" title="@dimas_ardiminda" href="https://www.tiktok.com/@dimas_ardiminda?refer=embed">@dimas_ardiminda</a>
-                <a target="_blank" title="♬ original sound  - dimas_ardiminda" href="https://www.tiktok.com/music/original-sound-dimasardiminda-7436019603962874625?refer=embed">♬ original sound  - dimas_ardiminda</a>
+                <Link target="_blank" href="https://www.tiktok.com/@dimas_ardiminda?refer=embed">@dimas_ardiminda</Link>
+                {/* <Link target="_blank" title="♬ original sound  - dimas_ardiminda" href="https://www.tiktok.com/music/original-sound-dimasardiminda-7436019603962874625?refer=embed">♬ original sound  - dimas_ardiminda</link> */}
               </section>
             </blockquote>
           </div>
@@ -35,9 +36,9 @@ export default function page() {
               style={{ maxWidth: "100%", minWidth: "325px" }}
             > 
               <section>
-                <a target="_blank" title="@dimas_ardiminda" href="https://www.tiktok.com/@dimas_ardiminda?refer=embed">@dimas_ardiminda</a>
+                <Link target="_blank" href="https://www.tiktok.com/@dimas_ardiminda?refer=embed">@dimas_ardiminda</Link>
                 the journey has been started ...
-                <a title="pesonaindonesia" target="_blank" href="https://www.tiktok.com/tag/pesonaindonesia?refer=embed">#pesonaindonesia</a>
+                {/* <Link title="pesonaindonesia" target="_blank" href="https://www.tiktok.com/tag/pesonaindonesia?refer=embed">#pesonaindonesia</Link> */}
                 {/* Add other hashtags here */}
               </section>
             </blockquote>
@@ -94,11 +95,10 @@ export default function page() {
                 </div>
               </a>
             </div>
+           
           </blockquote>
         </div>
       </Continer>
-      <script async src="https://www.tiktok.com/embed.js"></script>
-      <script async src="//www.instagram.com/embed.js"></script>
     </>
   )
 }
